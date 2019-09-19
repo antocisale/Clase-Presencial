@@ -1,4 +1,24 @@
-.border-parrafo{
+.border-parrafo {
     border: 1px solid red;
     padding: 30px
 }
+
+.contenedor1 {
+    text-align: left;
+    
+
+ 
+
+}
+
+.p {
+    display: inline-block;
+    width: calc(50% - 6px);
+    text-align: left;
+    border: 2px solid red;
+
+  
+
+
+}
+
