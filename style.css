@@ -5,9 +5,9 @@
 
 .contenedor1 {
     text-align: left;
-    
 
- 
+
+
 
 }
 
@@ -17,8 +17,35 @@
     text-align: left;
     border: 2px solid red;
 
-  
+
 
 
 }
 
+.borderradius {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid blue;
+    background-color: blue;
+    color: white;
+    text-align: center;
+
+
+
+
+}
+
+.hola {
+    position: relative;
+    top: 35px;
+}
+
+
+
+
+/*.hola{
+     
+   position: relative;
+    
+}
