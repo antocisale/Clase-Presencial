@@ -1,0 +1,73 @@
+.container {
+    margin-bottom: 45px;
+    display: flex;
+
+}
+
+.uno {
+    justify-content: flex-start;
+}
+
+.uno .item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.dos {
+    justify-content: flex-end;
+}
+
+.tres {
+    flex-direction: column;
+
+}
+
+.tres .item {
+    margin-bottom: 23px
+}
+
+.cuatro {
+    flex-direction: column-reverse
+}
+
+.cinco {
+    justify-content: space-between;
+
+}
+
+.seis {
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+    align-items: stretch;
+    height: 400px;
+
+}
+
+
+.item {
+    height: 250px;
+    width: 250px;
+}
+
+.seis .item {
+    height: auto;
+}
+
+.item:nth-child(1) {
+    background-color: crimson;
+    color: white;
+}
+
+.item:nth-child(2) {
+    background-color: teal;
+    color: white;
+}
+
+.item:nth-child(3) {
+    background-color: tomato;
+    color: white;
+}
+
+/***/
